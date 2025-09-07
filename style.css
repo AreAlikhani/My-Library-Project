@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header h1{
+    text-align: center;
+    color: #2c3e50;
+}
+
+section{
+    background-color: #e3b3ec;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2{
+    margin-bottom: 10px;
+    color: #282e35;
+}
+
+form input, form button{
+    padding: 8px 10px;
+    margin: 5px 5px 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+form input:focus{
+    outline: none;
+    border-color: #3498db;
+}
+
+button{
+    background-color: #ca6bdb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #bf44ca;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #782a8b;
+}
+
+table th{
+    background-color: #cb73cf;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #dd9ee8;
+}
+

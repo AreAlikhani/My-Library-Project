@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <h1>My Library</h1>
+    </header>
+
+    <!-- Adding new book -->
+    <section id="add-book">
+        <h2>Add Book</h2>
+        <form id="add-form">
+            <input id="title-input" name="title" placeholder="title" required>
+            <input id="author-input" name="author" placeholder="author" required>
+            <input id="year-input" type="number" name="year" placeholder="year" required>
+            <button id="add-btn" type="submit">Add</button>
+        </form>
+    </section>
+
+    <!-- Search book -->
+    <section id="search">
+        <h2>Search Book</h2>
+        <form id="search-form">
+            <input id="search-title" placeholder="title">
+            <input id="search-author" placeholder="author">
+            <input id="search-year" type="number" placeholder="year">
+            <button id="search-btn" type="submit">Search</button>
+            <button id="clear-search" type="button">Clear</button>
+        </form>
+        
+
+    </section>
+
+
+    <!-- Showing Books -->
+    <section id="list">
+        <h2>Show Books</h2>
+        <table id="books-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="books-tbody">
+
+            </tbody>
+        </table>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
